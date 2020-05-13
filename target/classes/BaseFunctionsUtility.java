@@ -5,11 +5,12 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.util.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 public class BaseFunctionsUtility {
 	
@@ -62,8 +63,7 @@ public class BaseFunctionsUtility {
 			break;
 		case "VERIFYTEXT":
 			String ActValue = driver.findElement(this.getObject(prop, ObjectName, ObjectType)).getText();
-			Assert.assertEquals(ActValue, Value);
-			log.trace("Assert.assertEquals(ActValue, Value);");
+			log.trace(ActValue.equals(Value));
 		default : 
 			break;
 		}
