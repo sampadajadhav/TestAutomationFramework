@@ -11,3 +11,16 @@
 00:32:09.745 [main] INFO  TestCase.ExecuteDriverTest - Test123
 00:32:09.816 [main] TRACE TestAutomation.BaseFunctionsUtility - Assert.assertEquals(ActValue, Value);
 00:32:09.816 [main] INFO  TestCase.ExecuteDriverTest - test executed successfully
+20:55:22.202 [main] INFO  TestCase.ExecuteDriverTest - Test123
+20:55:37.483 [main] INFO  TestCase.ExecuteDriverTest - test executed successfully
+20:55:37.489 [main] INFO  TestCase.ExecuteDriverTest - Test123
+20:55:43.229 [main] INFO  TestCase.ExecuteDriverTest - test executed successfully
+20:55:43.230 [main] INFO  TestCase.ExecuteDriverTest - Test123
+20:55:43.571 [main] INFO  TestCase.ExecuteDriverTest - test executed successfully
+20:55:43.572 [main] INFO  TestCase.ExecuteDriverTest - Test123
+20:55:43.687 [main] INFO  TestCase.ExecuteDriverTest - test executed successfully
+20:55:43.689 [main] INFO  TestCase.ExecuteDriverTest - Test123
+20:55:46.791 [main] INFO  TestCase.ExecuteDriverTest - test executed successfully
+20:55:46.792 [main] INFO  TestCase.ExecuteDriverTest - Test123
+20:55:46.894 [main] TRACE TestAutomation.BaseFunctionsUtility - true
+20:55:46.894 [main] INFO  TestCase.ExecuteDriverTest - test executed successfully
