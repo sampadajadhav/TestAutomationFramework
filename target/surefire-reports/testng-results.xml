@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27500" started-at="2020-05-13T00:21:43 IST" finished-at="2020-05-13T00:22:10 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27500" started-at="2020-05-13T00:21:43 IST" finished-at="2020-05-13T00:22:10 IST">
+      <class name="TestCase.ExecuteDriverTest">
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.ExecuteDriverTest@7c6908d7]" name="ExecuteTest" duration-ms="17546" started-at="2020-05-13T00:21:43 IST" data-provider="TestData" finished-at="2020-05-13T00:22:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login In Application]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LAUNCHURL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.ExecuteDriverTest@7c6908d7]" name="ExecuteTest" duration-ms="5385" started-at="2020-05-13T00:22:01 IST" data-provider="TestData" finished-at="2020-05-13T00:22:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[signinbtn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//a[@class='login']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.ExecuteDriverTest@7c6908d7]" name="ExecuteTest" duration-ms="324" started-at="2020-05-13T00:22:06 IST" data-provider="TestData" finished-at="2020-05-13T00:22:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ENTERTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sam.jadhav21@yahoo.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.ExecuteDriverTest@7c6908d7]" name="ExecuteTest" duration-ms="124" started-at="2020-05-13T00:22:07 IST" data-provider="TestData" finished-at="2020-05-13T00:22:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ENTERTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Play@111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.ExecuteDriverTest@7c6908d7]" name="ExecuteTest" duration-ms="3071" started-at="2020-05-13T00:22:07 IST" data-provider="TestData" finished-at="2020-05-13T00:22:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[loginButton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.ExecuteDriverTest@7c6908d7]" name="ExecuteTest" duration-ms="60" started-at="2020-05-13T00:22:10 IST" data-provider="TestData" finished-at="2020-05-13T00:22:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[signoutbtn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sign out]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+      </class> <!-- TestCase.ExecuteDriverTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
