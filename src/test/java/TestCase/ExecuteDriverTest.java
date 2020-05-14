@@ -34,11 +34,10 @@ public class ExecuteDriverTest{
 			//created object for readobjectproperty class
 			ReadObjectProperty object = new ReadObjectProperty();
 			Properties prop = object.getObjectRepository();
-			log.info("Test123");
 			//created object for BaseFunctionsUtility class
 			BaseFunctionsUtility operation = new BaseFunctionsUtility(driver);
 			operation.perform(prop, keyword, ObjectName, ObjectType, Value);
-			log.info("test executed successfully");
+			log.info("Keyword executed successfully");
 		}
 	
 
@@ -55,8 +54,8 @@ public class ExecuteDriverTest{
 			for (int j = 0; j < row.getLastCellNum(); j++) {
 				object[i][j] = row.getCell(j).toString();
 			}
-		}		
-		
+		}
+		log.info("Test Data Imported succssfully");		
 		return object;
 	}
 }
